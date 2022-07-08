@@ -1,0 +1,934 @@
+/* body
+        {
+            background-image: linear-gradient(rgba(8,0,9,9.7),rgba(0,0,0,0.7)), url('image/genz.jpeg');
+            background-size: cover;
+            overflow: hidden;}
+   .Year select {
+    width: 30%;
+    padding: 30px;
+    font-size: 25px;
+    margin-left: 90px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.Year:focus,
+.Year:hover{
+    outline: none;
+    border: 1px solid #bbbbbbS;
+}
+#lagayan{
+    padding: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 90px;
+    margin-top: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    width: 30%;
+
+}
+
+#mamamo{background: transparent;
+  
+  resize: none;
+  border: 0 none;
+  outline: none;
+  height: 100%;
+  position: absolute;
+  color: white;
+  padding-top: 60px;
+  text-align: justify;
+  font-size: 23px;
+  font-style: normal;
+  margin-top: -100px;
+  margin-left: -80px;
+}
+
+.logo{
+    color: white; 
+        font-family:cursive;
+        margin-left: 20px;
+        font-size: 40px;
+        text-align: left;
+
+    }
+.tabs{
+    text-align: right;
+    padding-right: 15px; 
+        
+}
+
+span{
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-display: ;
+    margin-top: 30px;
+
+}
+#charge{
+    color: lime;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: transparent;
+    outline: none;
+    border: 0 none;
+
+}
+
+.fhi{
+    margin-top: -300px;
+    margin-left: 50px;
+    width: 500px;
+   font-size: 20px;
+}
+
+.labas{
+    height:20px ;
+    width: 1000px;
+    font-size: 20px;
+}
+
+b{
+    font-size: 25px;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none; 
+}
+a.toptrending{
+        color:navajowhite;
+        text-decoration-line: underline;
+    }
+h1{
+        text-align: center;
+        color: #246E86; 
+    }
+
+    h2 { 
+        color: white;
+    }
+
+    h3{
+        color: white;
+    }
+    h4{
+        font-size: 30px;
+        color: #246E86;
+    }
+
+    h5{
+    color: white;
+    font-size: 30px;
+}
+
+.wit{
+    font-size: 40px;
+}
+
+.wat{
+    font-size: 40px;
+}
+
+.tabsie{
+    text-align: right;
+    padding-right: 15px; 
+    padding-bottom: 20px;
+    margin-top: -750px;
+        
+}
+.inter{
+    width: 900px;
+    color: white;
+    text-align: left;
+    font-size: 50px;
+    margin-top: -10px;
+    margin-left: 10px;
+    padding-right: 10px;
+  
+}
+.intern{
+    margin-top: -230px;
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.select{
+    color: white;
+    margin-left: 30px;
+    font-size: 30px;
+    font-style: normal;
+}
+
+
+.table2{
+        width:41% ;
+        height: 600px;
+        line-height:120% ;
+        border:1px;
+        margin-left:995px ;
+        margin-top:-50px
+        
+    }
+
+
+
+.p1{
+    color: white;
+}
+
+strong{
+    color: white;
+}
+
+.click{
+    color: navajowhite;
+}
+
+.table3{
+        width:50% ;
+        height: 300px;
+        line-height:50% ;
+        border:1px;
+        margin-top: -180;
+        margin-left:850px ;
+        text-align:center;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        padding-right:15px; 
+        font-size: 80px;
+
+    }
+
+    .tabledob1{
+        width:50% ;
+        height: 300px;
+        line-height:50% ;
+        border:1px;
+        margin-top: -330;
+        margin-left:-800px ;
+        text-align:center;
+        padding-bottom: 40px;
+        padding-right:15px; 
+        font-size: 80px;
+       
+
+    }
+        
+#greet{
+    color: #246E86;
+    font-size: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+  background: transparent;
+  resize: none;
+  border: 0 none;
+  outline: none;
+  height: 100%;
+  position: absolute;
+  margin-top: -1000px;
+  margin-left: 900px;
+}}
+
+table{
+    width: 15%;
+    }
+    .table4{
+    width: 40%;
+    line-height: 120%;
+     border: 1px;
+     margin-left: 1000px;
+     margin-top: -200px;
+     color: white;
+     text-align: left;
+    padding-right: 15px; 
+    }
+
+    .tabledob{
+        width: 60%;
+        line-height: 150%;
+        border: 1px;
+        margin-left: 300px;
+        margin-top: -390px;
+        color: white;
+        text-align: justify;}
+        .image1{
+        height: 500%;
+        width: 700%;}
+    .image2{
+        height: 500%;
+        width: 700%;}
+    .image3 {
+        height: 500%;
+        width: 700%;
+    }
+      
+    .table5{ 
+     width: 20%;
+     line-height: 150%;
+     border: 1px;
+     margin-left: 1500px;
+     margin-top: -290px;}
+     .image1{
+        height: 500%;
+        width: 700%;}
+    .image2{
+        height: 500%;
+        width: 700%;}
+    .image3 {
+        height: 500%;
+        width: 700%;
+
+    }
+    .table6{
+        width: 60%;
+        line-height: 150%;
+        border: 1px;
+        margin-left: 300px;
+        margin-top: -350px;
+        color: white;
+        text-align: justify;}
+    }
+
+    .p2{
+        font-family:; 
+        font-style:; 
+        color:darkblue;
+        font-size: 24px; 
+        margin: 18px;">
+    }
+.table7{
+     width: 60%;
+     line-height: 150%;
+     border: 1px;
+     margin-left: 300px;
+     margin-top: -570px;
+     color: white;
+     text-align: justify;
+    }
+
+    table{
+    width: 15%;
+    }
+    .table1{
+     width: 60%;
+     line-height: 150%;
+     border: 1px;
+     margin-left: 300px;
+     margin-top: -570px;
+     color: white;
+     text-align: justify;
+    }
+      
+    .table8{ 
+    width: 20%;
+     line-height: 150%;
+     border: 1px;
+     margin-left: 1500px;
+     margin-top: -280px;}
+     .image1{
+        height: 500%;
+        width: 700%;}
+    .image2{
+        height: 500%;
+        width: 700%;}
+    .image3 {
+        height: 500%;
+        width: 700%;
+    }
+
+    .table9{
+        width: 60%;
+        line-height: 150%;
+        border: 1px;
+        margin-left: 300px;
+        margin-top: -420px;
+        color: white;
+        text-align: justify;}
+    }
+
+    .p3{
+        font-family:; 
+        font-style:; 
+        color:#FFFFFF;
+        font-size: 18px; 
+        margin: 18px;">
+    }
+
+.table10{
+     width: 60%;
+     line-height: 150%;
+     border: 1px;
+     margin-left: 300px;
+     margin-top: -510px;
+     color: white;
+     text-align: justify;
+    }
+      
+.table11{ 
+     width: 20%;
+     line-height: 150%;
+     border: 1px;
+     margin-left: 1500px;
+     margin-top: -350px;}
+     .image1{
+        height: 500%;
+        width: 700%;}
+    .image2{
+        height: 500%;
+        width: 700%;}
+    .image3 {
+        height: 500%;
+        width: 700%;
+
+    }
+.table12{
+        width: 60%;
+        line-height: 150%;
+        border: 1px;
+        margin-left: 300px;
+        margin-top: -380px;
+        color: white;
+        text-align: justify;}
+    
+.table13{
+    width: 60%;
+    line-height: 150%;
+     border: 1px;
+     margin-left: 300px;
+     margin-top: -490px;
+     color: white;
+     text-align: justify;
+    }
+      
+.table14{ 
+     width: 20%;
+     line-height: 150%;
+     border: 1px;
+     margin-left: 1500px;
+     margin-top: -520px;}
+     .image1{
+        height: 500%;
+        width: 700%;}
+    .image2{
+        height: 500%;
+        width: 700%;}
+    .image3 {
+        height: 500%;
+        width: 700%;
+    }
+
+.table15{
+        width: 60%;
+        line-height: 150%;
+        border: 1px;
+        margin-left: 300px;
+        margin-top: -290px;
+        color: white;
+        text-align: justify;
+    }
+.about{
+        color: white; 
+        font-family:cursive;
+        margin-left: 20px;
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .tabs1{
+        text-align: right;
+        padding-right: 1000px; 
+        width:41% ;
+        line-height:120% ;
+        border:1px;
+        margin-left:1000px ;
+        margin-top:-60px
+    } 
+
+
+    a.menu{
+        font-size:15px;
+        color: white; 
+        font-style: bold;
+        text-decoration: none;
+
+}
+
+.table16{
+        width:30% ;
+        margin-left:1150px ;
+        margin-top:130px;
+        font-size: 80px;
+        color:white;
+        font-style: normal;
+    }
+    .table17{
+        width:30% ;
+        margin-left:1130px ;
+        margin-top: -150px;
+        font-size: 20px;
+        color:white;
+        font-style: normal;
+    }
+
+        .message-form {
+            max-width: 700px; 
+            margin-right: 50px;
+            margin-top: -900px;
+
+        }
+       
+        .message-form textarea {
+            background: #FFFF; 
+            color: #246E86; 
+            border: none; 
+            width: 103%; 
+            font-size: 15px; 
+            min-height: 200px; 
+            max-height: 500px; 
+            resize: vertical; 
+            border-radius: 5px; 
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 1.0); 
+            margin-bottom: 20px; 
+            opacity: 0.9;
+           
+        }
+        .message-form h1 {
+            text-align: center; 
+            font-size: 40px; 
+            text-transform: uppercase; 
+            margin-bottom: 10px;
+            text-align: center; 
+            color: #246E86;
+        }
+        .message-form h1 {
+            text-align: center;
+            font-family: calibri; 
+            font-size: 40px; 
+            color: #246E86; 
+            line-height: 1;
+        }
+        .message-form .send-btn {
+            background: #246E86; 
+            color: #FFFF; 
+            border: none; 
+            width: 120px; 
+            height: 40px; 
+            font-size: 15px; 
+            font-weight: 600; 
+            text-transform: uppercase; 
+            letter-spacing: 2px; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            transition: 0.3s; 
+            transition-property: background;
+        }
+        .message-form .send-btn:hover {
+            background: green;
+        }
+        .message-form .text-box {
+            background: #FFFF; 
+            color: #246E86; 
+            border: none; 
+            width: calc(50% - 10px); 
+            height: 40px; 
+            padding: 12px; 
+            font-size: 15px; 
+            border-radius: 5px; 
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 1.0); 
+            margin-bottom: 10px; 
+            opacity: 0.9; 
+            width: 100%;
+        }
+        .message-form .text-box:first-child {
+            margin-right: 15px;
+        }
+
+        .message-form {
+            margin-left: 1000px;
+            margin-top: 300px;
+        }
+        ::placeholder {
+        color: #246E86;
+    }
+.table18{ 
+     width: 20%;
+     line-height: 150%;
+     border: 1px;
+     margin-left: 1500px;
+     margin-top: -323px;}
+     .image1{
+        height: 500%;
+        width: 700%;}
+    .image2{
+        height: 500%;
+        width: 700%;}
+    .image3 {
+        height: 500%;
+        width: 700%;
+    }
+
+    .table19{
+        width: 20%;
+        line-height: 150%;
+        border: 1px;
+        margin-left: 300px;
+        margin-top: -350px;
+        }
+        .t {
+        height: 500%;
+        width: 140%;
+
+        }
+     .table20{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 870px;
+        margin-top: -340px;
+        color: white;
+        text-align: justify;
+    }
+
+    .table21{
+        width: 20%;
+        line-height: 150%;
+        border: 1px;
+        margin-left: 300px;
+        margin-top: -370px;
+        }
+        .t {
+        height: 500%;
+        width: 140%;
+
+        }
+     .table22{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 850px;
+        margin-top: -310px;
+        color: white;
+        text-align: justify;
+    }
+    .table23{ 
+     width: 20%;
+     line-height: 150%;
+     border: 1px;
+     margin-left: 1500px;
+     margin-top: -200px;}
+     .image1{
+        height: 500%;
+        width: 700%;}
+    .image2{
+        height: 500%;
+        width: 700%;}
+    .image3 {
+        height: 500%;
+        width: 700%;
+    }
+
+
+    .table24{
+        width: 20%;
+        line-height: 150%;
+        border: 1px;
+        margin-left: 800px;
+        margin-top: -380px;
+        }
+        .t {
+        height: 500%;
+        width: 170%;
+        }
+
+    .table25{
+        width: 25%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 970px;
+        margin-top: -430px;
+        color: white;
+        text-align: justify;
+    }
+    .table26{ 
+     width: 20%;
+     line-height: 150%;
+     border: 1px;
+     margin-left: 1500px;
+     margin-top: -100px;}
+     .image1{
+        height: 500%;
+        width: 700%;}
+    .image2{
+        height: 500%;
+        width: 700%;}
+    .image3 {
+        height: 500%;
+        width: 700%;
+
+    }
+    .table27{
+        width: 20%;
+        line-height: 150%;
+        border: 1px;
+        margin-left: 300px;
+        margin-top: -650px;
+        }
+        .t {
+        height: 600%;
+        width: 130%;
+
+        }
+     .table28{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 850px;
+        margin-top: -680px;
+        color: white;
+        text-align: justify;
+    }
+    .table29{
+        width: 20%;
+        line-height: 150%;
+        border: 1px;
+        margin-left: 300px;
+        margin-top: -650px;
+        }
+        .t {
+        height: 100%;
+        width: 110%;
+        }
+     
+    .table30{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 850px;
+        margin-top: -830px;
+        color: white;
+        text-align: justify;
+     }
+     .table31{
+        width: 20%;
+        line-height: 150%;
+        border: 1px;
+        margin-left: 300px;
+        margin-top: -650px;
+        }
+        .t {
+        height: 100%;
+        width: 120%;
+        }
+     
+    .table32{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 850px;
+        margin-top: -700px;
+        color: white;
+        text-align: justify;
+     }
+     .table33{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 850px;
+        margin-top: -720px;
+        color: white;
+        text-align: justify;
+     }
+     .table34{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 850px;
+        margin-top: -630px;
+        color: white;
+        text-align: justify;
+     }
+     .table35{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 850px;
+        margin-top: -600px;
+        color: white;
+        text-align: justify;
+     }
+     .table36{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 850px;
+        margin-top: -520px;
+        color: white;
+        text-align: justify;
+    }
+    .table37{ 
+     width: 20%;
+     line-height: 150%;
+     border: 1px;
+     margin-left: 1500px;
+     margin-top: -80px;}
+     .image1{
+        height: 500%;
+        width: 700%;}
+    .image2{
+        height: 500%;
+        width: 700%;}
+
+    .table38{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 850px;
+        margin-top: -650px;
+        color: white;
+        text-align: justify;
+     }
+     .table39{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 850px;
+        margin-top: -480px;
+        color: white;
+        text-align: justify;
+     }
+    .table40{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 850px;
+        margin-top: -525px;
+        color: white;
+        text-align: justify;
+     }
+     .table41{
+     width: 60%;
+     line-height: 150%;
+     border: 1px;
+     margin-left: 300px;
+     margin-top: -530px;
+     color: white;
+     text-align: justify;
+    }
+    .table42{
+        width: 20%;
+        line-height: 150%;
+        border: 1px;
+        margin-left: 300px;
+        margin-top: -400px;
+        }
+        .t {
+        height: 500%;
+        width: 140%;
+
+        }
+     .table43{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 870px;
+        margin-top: -400px;
+        color: white;
+        text-align: justify;
+    }
+    .table44{ 
+     width: 20%;
+     line-height: 150%;
+     border: 1px;
+     margin-left: 1500px;
+     margin-top: -300px;}
+     .image1{
+        height: 500%;
+        width: 700%;}
+    .image2{
+        height: 500%;
+        width: 700%;}
+    .image3 {
+        height: 500%;
+        width: 700%;
+    }
+
+    .table45{
+        width: 20%;
+        line-height: 150%;
+        border: 1px;
+        margin-left: 300px;
+        margin-top: -470px;
+        }
+        .t {
+        height: 500%;
+        width: 140%;
+
+        }
+     .table46{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 870px;
+        margin-top: -330px;
+        color: white;
+        text-align: justify;
+    }
+    .table47{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 870px;
+        margin-top: -450px;
+        color: white;
+        text-align: justify;
+    }
+    .table48{ 
+     width: 20%;
+     line-height: 150%;
+     border: 1px;
+     margin-left: 1500px;
+     margin-top: -240px;}
+     .image1{
+        height: 500%;
+        width: 700%;}
+    .image2{
+        height: 500%;
+        width: 700%;}
+    .image3 {
+        height: 500%;
+        width: 700%;
+    }
+
+    .table49{
+        width: 20%;
+        line-height: 150%;
+        border: 1px;
+        margin-left: 300px;
+        margin-top: -480px;
+        }
+        .t {
+        height: 500%;
+        width: 140%;
+
+        }
+     .table50{
+        width: 30%;
+        line-height: 200%;
+        border: 1px ;
+        margin-left: 870px;
+        margin-top: -350px;
+        color: white;
+        text-align: justify;
+    }
+    */

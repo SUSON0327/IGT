@@ -1,0 +1,64 @@
+{% extends 'navbar.html' %}
+{% load static %}
+
+{% block content %} 
+<table>
+        <p>Shop with us!</p>
+</table>
+<table border="5" bordercolor="" width="80%">
+  <tr>
+    <th colspan="3">AVAILABLE PRODUCTS</th>
+</tr>
+  <tr>
+    <td><img class="image1" src="{%static 'image/c1.jpg' %}" border="3"> </td>
+    <td> <p>Strawberry Midi Dress</p>
+<p>The perfect head turner dress featured by a midi dress silhouette covered in glittery strawberries.<br> The tie up detail and the puffy sleeves make the dress even more fabulous.<br> The dresses length from waist down is 33 inches.<br> Made of 100% polyamide tulle, pvc glitter, environmental protection glue.</p>
+</td>
+</tr>
+  <tr>
+    <td><img class="image1" src="image/c2.jpg" border="3"> </td>
+    <td><p>Billie Eilich t-shirt</p>
+        <p>An official licensed unisex soft-style cotton Tee featuring the Billie Eilish 'Black Racer Logo' design motif. <br>This high quality t-shirt is available in a white colourway.</p>
+</td>
+</tr>
+  <tr>
+      <td><img class="image1" src="image/c3.jpg" border="3"></td>
+      <td><p>Women's High Waist Boyfriends Jeans</p>
+        <p>85% Cotton, 15% Polyester<br>
+        Features: high waist, button, zipper fly, fashionable wide leg jeans with pockets<br>
+        Casual long demin pants, great to pair with t shirt, crop tops, camisole, etc</p>
+</td>
+</tr>
+<td>
+</td>
+<td>
+<form  method= "POST" action="/modeofpayment/" id="survey-form">
+    {% csrf_token %} 
+  <select name="product"> 
+    <option value="" hidden>Select Product</option>
+    <option value="Strawberry Midi Dress">Strawberry Midi Dress</option>
+    <option value="Billie Eilich t-shirt">Billie Eilich t-shirt</option>
+    <option value="Women's High Waist Boyfriends Jeans">Women's High Waist Boyfriends Jeans</option>
+  </select>
+  <select name = "qua"> 
+    <option value="" hidden>Select Quantity</option>
+    <option value="1 - 600.00">1 - 600.00</option>
+    <option value="2 - 1,200.00">2 - 1,200.00</option>
+    <option value="3 - 1,800.00">3 - 1,800.00</option>
+  </select>
+  <select name = "size"> 
+    <option value="" hidden>Size</option>
+    <option value="Small">Small</option>
+    <option value="Medium">Medium</option>
+    <option value="Large">Large</option>
+  </select>
+  <input  class="btnSend" id="btnSend" type="submit" value="Check Out"/>
+</form>
+</td>
+</table>
+
+
+
+{% endblock %}
+
+

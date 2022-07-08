@@ -1,0 +1,34 @@
+{% extends 'navbar.html' %}
+{% load static %}
+
+{% block content %}
+<br><br>
+<h1>Mode of Payment</h1>
+<table border="5" bordercolor="" width="80%">
+<td>
+<form  method= "POST" action="/transactiondetails/" id="survey-form">
+    {% csrf_token %} 
+    <p>Date Today</p>
+        <label for="date">Enter Date Today:</label>
+        <input type="date" id="deliverydate" name="tdate"></input>
+    </td><br>
+    <td>
+        <p>Please select your Mode of Payment:</p>
+        <input type="radio" id="html" name="pay" value="Gcash"></input>
+        <label for="gcash">Gcash</label>
+        <input type="radio" id="css" name="pay" value = "COD"></input>
+        <label for="cod">COD</label><br>
+        
+    </td>
+    <td>   
+        <p>Date of Delivery</p>
+        <label for="date">Enter preferred date of Delivery:</label>
+        <input type="date" id="deliverydate" name="ddate"></input>
+    </td>
+    <td>
+        <input type="submit"/>
+    </td>
+</form>
+
+
+{% endblock %}

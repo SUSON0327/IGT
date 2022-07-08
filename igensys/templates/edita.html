@@ -1,0 +1,18 @@
+{% extends 'navbar.html' %}
+{% load static %}
+
+{% block content %}
+<div>
+    <p>Edit Order Details</p>
+</div>
+<form method="POST" action="">
+    {% csrf_token%} 
+<div>
+    <div>Product: {{form.Product}}</div>
+    <div>Qty/Amount: {{form.QuaPrice}}</div>
+    <div>Sizes: {{form.Sizes}}</div>
+    <div>
+        <input type = "Submit" class="btn primary" ></input>
+    </div>
+</div>
+{%endblock%}

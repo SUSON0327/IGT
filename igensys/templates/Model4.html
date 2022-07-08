@@ -1,0 +1,88 @@
+{% extends 'navbar.html' %}
+{% load static %}
+
+{% block content %} 
+<center>
+    <br><br>
+    <h1>TRANSACTION DETAILS</h1>
+    <div>
+    <table border="5" bordercolor="">
+    <tr>
+        <th colspan="11">Information Details</th>
+    </tr>
+    <tr> 
+        <td>FirstName:</td>
+        <td>Lastname:</td>
+        <td>Email:</td>
+        <td>Address:</td>
+        <td>Contact Number:</td>
+        <td>Notes:</td>
+        <td>Status:</td>
+    </tr>
+        {% for item in ProfileInfo%}
+    <tr> 
+        <td>{{item.First_name}}</td>
+        <td>{{item.Last_name}}</td>
+        <td>{{item.Email}}</td>
+        <td> {{item.Address}}</td>
+        <td> {{item.Contact_number}}</td>
+        <td> {{item.Notes}}</td>
+        
+        <td>
+            <a type='button' href="{% url 'edit' item.pk%}" > Edit</a> <a type='button' href="{% url 'cancel' item.pk %}" > Cancel</a>
+        </td>
+    </tr>
+        {% endfor %}
+</table>
+        </br>
+    <table border="5" bordercolor="">
+    <tr>
+        <th colspan="11">Order Details</th>
+    </tr>
+    <tr> 
+        <td>Product:</td>
+        <td>Qty/Amount:</td>
+        <td>Sizes:</td>
+        <td>Status:</td>
+    </tr>
+    <tr>
+        {% for item in Items%}
+            <td>{{item.Product}}</td>
+            <td>{{item.QuaPrice}}</td>
+            <td>{{item.Sizes}}</td>
+            <td>
+                <a type='button'  href="{% url 'edita' item.pk%}" > Edit</a> <a type='button' href="{% url 'cancela' item.pk %}" > Cancel</a>
+            </td>
+
+    </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <table border="5" bordercolor="">
+        <tr>
+            <th colspan="11">Payment Details</th>
+        </tr>
+        <tr> 
+            <td>Mode of Payment:</td>
+            <td>Date Ordered:</td>
+            <td>Delivery Date:</td>
+            <td>Status:</td>
+        </tr>
+    <tr>
+        {% for item in Payment%}
+            <td>{{item.Pay}}</td>
+            <td>{{item.TDate}}</td>
+            <td>{{item.DDate}}</td>
+            <td>
+                <a type='button'  href="{% url 'editb' item.pk%}" > Edit</a> <a type='button' href="{% url 'cancelb' item.pk %}" > Cancel</a>
+            </td>
+        
+    </tr>
+        {% endfor %}
+    </td>
+    </table>
+
+    </div>
+    </form>
+</center>
+{% endblock %}

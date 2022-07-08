@@ -1,0 +1,44 @@
+{% extends 'navbar.html' %}
+{% load static %}
+
+{% block content %}
+<h2>Information Profile</h2>
+<p>Provide all information needed in your transaction.</p>
+
+<div>
+<form  method= "POST" action="/product/" id="survey-form">
+{% csrf_token %} 
+    <table border="5" bordercolor="" width="80%">
+        <td>
+            <label>Firstname:</label><br>
+            <input type="text" id="firstname" name="first_name" size="30" placeholder="Enter firstname here."  required/>
+
+            <br>
+
+            <label>Surname:</label><br>
+            <input type="text" id="surname" name="last_name" size="30" placeholder="Enter name here."  required/>
+
+            <br>
+
+            <label>Email:</label><br>
+            <input type="email" id="newAddress" name="email" size="30" placeholder="Enter address here." required/><br>
+
+            <label>Address:</label>
+            <br>
+            <input type="text" id="newEmail" name="address" size="30" placeholder="Enter e-mail here." required /><br>
+
+            <label>Contact Number:</label>
+            <br>
+            <input type="tel" id="newNumber" name="contact_number" size="30" placeholder="Enter contact number here." required/><br><br>
+
+            <label>Notes:</label><br>
+            <textarea id="newNotes" placeholder="E.g. Landmark, reminders, request etc." name="notes" required></textarea>
+
+            <input  class="btnSend" id="btnSend" type="submit" value="Submit"/>
+        </td>
+    </table>
+<br>
+</form>
+
+{% endblock %}
+        

@@ -1,0 +1,18 @@
+{%load static %}
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>iGenTrends</title>
+         <link rel="stylesheet" href="{%static 'css/style2.css' %}">
+    </head>
+<div class="topnav">
+    <a href="{% url 'Mainpage' %}">Profile </a>
+    <a href="{% url 'product' %}">Products </a>
+    <a href="{% url 'modeofpayment' %}">Mode of Payment </a>
+    <a href="{% url 'transactiondetails' %}">Transaction Details </a>
+ 
+</div>
+
+{%block content %}
+
+{%endblock %}
